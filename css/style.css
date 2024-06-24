@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 
 :root {
-  --main-color: #8e44ad;
+  --main-color: #004aad;
+  /* cor secundáriia #6dbee2 */
   --red: #e74c3c;
   --orange: #f39c12;
   --light-color: #888;
@@ -416,7 +417,7 @@ section {
 }
 
 .about .row .image {
-  flex: 1 1 40rem;
+  flex: 1 1 55rem;
 }
 
 .about .row .image img {
@@ -487,6 +488,7 @@ section {
   border-radius: 0.5rem;
   background-color: var(--white);
   padding: 2rem;
+  height: 300px;
 }
 
 .reviews .box-container .box p {
